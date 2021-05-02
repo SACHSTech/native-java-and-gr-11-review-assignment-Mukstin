@@ -8,15 +8,15 @@ public class Review2 {
 
     int intselection;
     intselection = 0;
-
+      //prints of the options 
       System.out.println("0 - print a joke about your hair");
       System.out.println("1 - print a joke about your feet"); 
       System.out.println("2 - print a joke about your clothes");
       System.out.println("3 - print a joke about your teacher");
-      
+      //Allows you to choose an option
       System.out.println("Choose a menu option: ");
       intselection = Integer.parseInt(key.readLine());
-    
+      //outputs for different scenerio's
       if (intselection == 0) {
           System.out.println("Why do bees have sticky hair?");
           System.out.println("They always use honeycombs.");
