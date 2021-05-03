@@ -5,17 +5,23 @@ import java.io.*;
 //counts how many days are in the year with the information given 
 //Assume no leap years
 //Justin Ho Shue
-public class Review1 { 
-    public static void main(String[] args) throws IOException {
-    BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
+  
+  public class Review1 { 
+      
+      public static void main(String[] args) throws IOException {
+      
+        BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     
     int intday = 0; 
     int intmonth = 0; 
     int intyearDays = 0;
+  
   //Allows the question to print on screen 
   //Also allows people to type their answer
+    
     System.out.println("Enter the month number: ");
     intmonth = Integer.parseInt(key.readLine());
+   
     System.out.println("Enter the day number: ");
     intday = Integer.parseInt(key.readLine());
   

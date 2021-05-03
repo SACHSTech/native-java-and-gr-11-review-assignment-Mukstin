@@ -18,6 +18,7 @@ public class Review3 {
     //allows it to print numbers 29 - 2 in decreasing order
     System.out.println("");
     for (int i2 = 29; i2 >= 2; i2--){
+  
     //for(int i2 = 29; i2 >= 2; i2--){
       System.out.println(i2);
     }
