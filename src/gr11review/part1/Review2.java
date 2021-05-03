@@ -1,7 +1,10 @@
 package gr11review.part1;
 
 import java.io.*;
-
+//Print out 4 statements of options
+//Allow the person to choose an option
+//Whichever option is chosing will say an outcome
+//Justin Ho Shue
 public class Review2 { 
     public static void main(String[] args) throws IOException {
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

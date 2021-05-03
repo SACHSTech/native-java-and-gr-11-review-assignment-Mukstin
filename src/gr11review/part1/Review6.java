@@ -1,23 +1,25 @@
 package gr11review.part1;
 import java.io.*;
 import java.text.*;
-
+//
 public class Review6 { 
     public static void main(String[] args) throws IOException {
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
       
         DecimalFormat dollarFormat = new DecimalFormat("$###0.00");
     
-    double dblprice;
+    double dblprice = 0;
     double dbltotal;
     double dblsubtotal = 0;
     double dbltax;
+    
   //continously asks the same question until the answer is 0 
-    while() {
+    while(dblprice != 0) {
       System.out.print("Enter the price of item number: ");
       dblprice = Double.parseDouble(key.readLine());
-          dblsubtotal = dblsubtotal + dblprice;
-       }
+          dblsubtotal += dblprice;
+          
+    }
         dbltax = dblsubtotal*0.13;
         dbltotal = dblsubtotal + dbltax;
 

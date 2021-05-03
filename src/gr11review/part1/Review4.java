@@ -2,7 +2,10 @@ package gr11review.part1;
 
 import java.io.*;
 import java.text.*;
-
+//Ask the user how many items you would like to buy
+//ask the user for the price of each item
+//calculate the Subtotal, tax, and total
+//Justin Ho Shue
 public class Review4 { 
     public static void main(String[] args) throws IOException {
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

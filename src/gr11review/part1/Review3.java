@@ -1,7 +1,9 @@
 package gr11review.part1;
 
 import java.io.*;
-
+//print all the odd numbers between 20-100
+//print numbers 29-2 in decreasing order
+//Justin Ho Shue
 public class Review3 { 
     public static void main(String[] args) throws IOException {
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
